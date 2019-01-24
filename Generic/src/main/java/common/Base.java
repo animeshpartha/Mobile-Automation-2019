@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
@@ -41,12 +42,12 @@ public class Base {
 
     @Parameters({"OS","appType","deviceType", "deviceName","version"})
     @BeforeMethod
-    public void setUp(String OS,String appType,String deviceType,String deviceName,
-                      String version)throws IOException,InterruptedException{
+    public void setUp(@Optional("ios") String OS,@Optional("iPhone") String appType,@Optional("Simulator") String deviceType,@Optional("iPhone Simulator") String deviceName,
+                      @Optional("10.3")String version)throws IOException,InterruptedException{
 
         if(OS.equalsIgnoreCase("ios")){
             if(appType.contains("iPhone")){
-                appDirectory = new File("/Users/mrahman/develop/MobileAutomationJuly2018/UICatalog/src/app/UICatalog6.1.app.zip");
+                appDirectory = new File("/Users/animesh/Desktop/MobileNov2018/UiCatalog/src/app/UICatalog6.1.app.zip");
                 findApp = new File(appDirectory,"UICatalog6.1.app.zip");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
@@ -98,8 +99,8 @@ public class Base {
 
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
-                appDirectory = new File("Android/src/app");
-                findApp = new File(appDirectory,"snapchat.apk");
+                appDirectory = new File("NYP/src/app");
+               findApp = new File(appDirectory,"nyp.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
@@ -144,9 +145,6 @@ public class Base {
             }
 
         }
-
-
-
 
     }
 

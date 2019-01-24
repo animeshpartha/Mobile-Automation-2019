@@ -4,20 +4,19 @@ import TextFieldsPage.TextFields;
 import UiCatalogPage.UiCatalog;
 import navigate.NavigateUi;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * Created by mrahman on 1/15/17.
- */
-public class TextFieldsTest extends NavigateUi {
+public class TextFieldsTest extends TextFields {
 
-    TextFields textFields = new TextFields();
+    TextFields textFields;
 
-    @Test
-    public void navigate()throws InterruptedException{
+    @BeforeMethod
+    public void initElements()throws InterruptedException{
         UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
-        ui.getTextFields();
-        textFields.writeTextToFields();
-
+    }
+    @Test
+    public void testUiTestFi8eld(){
+        textFields.clickOnUiTextField();
     }
 }

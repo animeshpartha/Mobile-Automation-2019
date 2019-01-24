@@ -1,31 +1,44 @@
 package PickersPage;
 
 import common.Base;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Created by mrahman on 1/15/17.
- */
 public class Picker extends Base {
-    public void selectPickerTwoWheels(String name, String number){
-        //scrollKeys(ad, new String[]{name,number});
+    @FindBy(xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[6]")
+    public static WebElement pickers;
+    @FindBy(xpath = "//XCUIElementTypeButton[@name=\"UIPicker\"]")
+    public static WebElement uipicker;
+    @FindBy(xpath = "//XCUIElementTypeButton[@name=\"UIDatePicker\"]")
+    public static WebElement uidatepicker;
+    @FindBy(xpath = "//XCUIElementTypeButton[@name=\"Custom\"]")
+    public static WebElement custom;
+    public void clickPicker() {
+        pickers.click();
+        uipicker.click();
+        uidatepicker.click();
+        custom.click();
+        String actual = ad.findElement(By.xpath("//XCUIElementTypeButton[@name=\"Custom\"]")).getTagName();
+        String expected = "XCUIElementTypeButton";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
     }
-    @FindBy(xpath = "//UIAApplication[1]/UIAWindow[2]/UIAToolbar[1]/UIASegmentedControl[1]/UIAButton")
-    List<WebElement> segmentControl = new ArrayList<WebElement>();
-
-    public void getUIPicker(){
-        segmentControl.get(0).click();
-    }
-    public void getUIDatePicker(){
-        segmentControl.get(1).click();
-    }
-    public void getCustom(){
-        segmentControl.get(2).click();
-    }
-
-
 }
+
+//
+//    List<WebElement> segmentControl = new ArrayList<WebElement>();
+//
+//    public void getUIPicker(){
+//        segmentControl.get(0).click();
+//    }
+//    public void getUIDatePicker(){
+//        segmentControl.get(1).click();
+//    }
+//    public void getCustom(){
+//        segmentControl.get(2).click();
+//    }
+
+
+

@@ -19,9 +19,6 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mrahman on 1/15/17.
- */
 public class UiCatalog extends Base {
 
     List<WebElement> elements = new ArrayList<WebElement>();

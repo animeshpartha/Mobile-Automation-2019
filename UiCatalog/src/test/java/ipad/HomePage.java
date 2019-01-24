@@ -8,16 +8,11 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mrahman on 9/5/15.
- */
 public class HomePage extends Base {
 
     @Test
     public void testName() throws Exception {
-
     }
-
     @Test
     public void home()throws InterruptedException{
 

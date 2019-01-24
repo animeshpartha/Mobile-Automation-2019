@@ -1,29 +1,29 @@
 package TextFieldsPage;
 
 import common.Base;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
-/**
- * Created by mrahman on 1/15/17.
- */
 public class TextFields extends Base {
 
-    public void typeOnUiTextField(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]", "Architecture");
-    }
-    public void typeOnUiTextFieldRounded(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]", "Rounded");
-    }
-    public void typeOnUiTextFieldSecure(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[4]", "test123");
-    }
-    public void typeOnUiTextFieldLeftView(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[7]", "Secure");
-    }
+    @FindBy(xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]")
+    public static WebElement textfield;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField\"]")
+    public static WebElement uiTextField;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField Rounded\"]")
+    public static WebElement uiTextFieldRounded;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField Secure\"]")
+    public static WebElement uiTextFieldSecure;
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"UITextField (with LeftView)\"]")
+    public static WebElement uiTextFieldWithLeftview;
 
-    public void writeTextToFields()throws InterruptedException{
-        typeOnUiTextField();
-        typeOnUiTextFieldRounded();
-        typeOnUiTextFieldSecure();
-        typeOnUiTextFieldLeftView();
+    public void clickOnUiTextField() {
+        textfield.click();
+        String actual = ad.findElement(By.xpath("//XCUIElementTypeStaticText[@name=\"UITextField\"]")).getText();
+        String expected = "UITEXTFIELD";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
     }
 }
