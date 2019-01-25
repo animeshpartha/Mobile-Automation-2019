@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1201d18-a4be-431a-91cb-e2ca24e26269" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/Sports/Sports.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/breakingNews/HomePageMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/test/java/android/MenuPageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/test/java/android/SportsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/test/resources/NypAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/test/resources/NypAppTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/target/test-classes/NypAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/target/test-classes/NypAppTestRunner.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a1201d18-a4be-431a-91cb-e2ca24e26269" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -23,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NYP/src/main/java/businessPage/Business.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,7 +97,7 @@
     <option name="x" value="27" />
     <option name="y" value="23" />
     <option name="width" value="1637" />
-    <option name="height" value="979" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,7 +106,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,6 +117,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +345,7 @@
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1637" height="979" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17223975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17223975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,7 +360,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32896304" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32896304" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
