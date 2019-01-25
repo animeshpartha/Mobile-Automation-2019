@@ -343,7 +343,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="23" width="1637" height="979" extended-state="0" />
+    <frame x="27" y="23" width="1637" height="978" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17223975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,7 +360,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32896304" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3293556" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
