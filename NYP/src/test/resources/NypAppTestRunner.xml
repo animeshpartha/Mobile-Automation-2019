@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="iOS test suite on iPhone Simulator">
+<suite name="Android test suite on Android Real Phone">
 
-    <parameter name="OS" value="ios"/>
-    <parameter name="appType" value="iPhone"/>
-    <parameter name="deviceType" value="Simulator"/>
-    <parameter name="deviceName" value="iPhone Simulator"/>
-    <parameter name="version" value="10.3"/>
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceName" value="ONEPLUS A5000"/>
+    <parameter name="version" value="8.0.0"/>
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-
+            <class name="android.BusinessPageTest"></class>
+            <class name="android.EntertainmentPageTest"></class>
+            <class name="android.FashionPageTest"></class>
+            <class name="android.LatestNewsPageTest"></class>
+            <class name="android.LivingPageTest"></class>
+            <class name="android.MediaPageTest"></class>
+            <class name="android.MetroPageTest"></class>
+            <class name="android.NewsPageTest"></class>
+            <class name="android.NotificationsPageTest"></class>
+            <class name="android.OpinionPageTest"></class>
+            <class name="android.PageSixPageTest"></class>
+            <class name="android.PhotosPageTest"></class>
+            <class name="android.RealEstatePageTest"></class>
+            <class name="android.SearchPageTest"></class>
+            <class name="android.SettingsPageTest"></class>
+            <class name="android.SportsPageTest"></class>
+            <class name="android.TechPageTest"></class>
+            <class name="android.VideosPageTest"></class>
         </classes>
     </test>
 </suite>
