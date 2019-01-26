@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1201d18-a4be-431a-91cb-e2ca24e26269" name="Default" comment="" />
+    <list default="true" id="a1201d18-a4be-431a-91cb-e2ca24e26269" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/app/nyp.apk" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/app/nyp.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/app/nypv1.apk" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/app/nypv1.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/businessPage/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/businessPage/Business.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/entertainmentPage/Entertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/entertainmentPage/Entertainment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/fashionPage/Fashion.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/fashionPage/Fashion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/latestNewsPage/LatestNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/latestNewsPage/LatestNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/livingPage/Living.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/livingPage/Living.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/mediaPage/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/mediaPage/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/metroPage/Metro.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/metroPage/Metro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/newsPage/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/newsPage/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/notificationsPage/Notifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/notificationsPage/Notifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/opinionPage/Opinion.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/opinionPage/Opinion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/pageSixPage/PageSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/pageSixPage/PageSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/photosPage/Photos.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/photosPage/Photos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/realEstatePage/RealEstate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/realEstatePage/RealEstate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/searchPage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/searchPage/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/settingsPage/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/settingsPage/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/sportsPage/Sports.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/sportsPage/Sports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/techPage/Tech.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/techPage/Tech.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/videoPage/Videos.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/videoPage/Videos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYP/src/test/resources/NypAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/test/resources/NypAppTestRunner.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -14,7 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,10 +107,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
     <option name="y" value="23" />
-    <option name="width" value="1637" />
-    <option name="height" value="976" />
+    <option name="width" value="1572" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,16 +126,25 @@
               <item name="MobileNov2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileNov2018" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MobileNov2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileNov2018" type="462c0819:PsiDirectoryNode" />
+              <item name="NYP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileNov2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileNov2018" type="462c0819:PsiDirectoryNode" />
+              <item name="NYP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548298114668" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548482949766" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -119,19 +152,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/common" />
-      <recent name="$PROJECT_DIR$/NYP/src/app" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NYP/src" />
-      <recent name="$PROJECT_DIR$/UiCatalog/src" />
-      <recent name="$PROJECT_DIR$/UiCatalog/src/test/resources" />
+      <recent name="$PROJECT_DIR$/NYP" />
+      <recent name="$PROJECT_DIR$/NYP/src/test/java" />
+      <recent name="$PROJECT_DIR$/NYP/src/test" />
+      <recent name="$PROJECT_DIR$/UiCatalog/src/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="common" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NYP/src/test" />
-      <recent name="$PROJECT_DIR$/UiCatalog/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/NYP" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/common" />
+      <recent name="$PROJECT_DIR$/NYP/src/app" />
+      <recent name="$PROJECT_DIR$/NYP/src" />
+      <recent name="$PROJECT_DIR$/UiCatalog/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,9 +369,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1637" height="976" extended-state="0" />
+    <frame x="0" y="23" width="854" height="782" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17223975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.67830426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +386,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4493464" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -410,7 +446,7 @@
     <entry file="file://$USER_HOME$/Downloads/Base.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYP/src/main/java/breakingNews/HomePageMenu.java" />
+    <entry file="file://$PROJECT_DIR$/NYP/src/main/java/BreakingNews/HomePageMenu.java" />
     <entry file="file://$PROJECT_DIR$/UiCatalog/src/test/resources/cataLogAppTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">

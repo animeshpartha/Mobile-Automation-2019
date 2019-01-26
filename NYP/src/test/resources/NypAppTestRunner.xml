@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Android test suite on Android Real Phone">
-
+<suite name="iOS test suite on iPhone Simulator">
     <parameter name="OS" value="Android"/>
     <parameter name="appType" value="Phone"/>
     <parameter name="deviceType" value="RealDevice"/>
-    <parameter name="deviceName" value="ONEPLUS A5000"/>
+    <parameter name="deviceName" value="Galaxy S7"/>
     <parameter name="version" value="8.0.0"/>
-
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <class name="android.BusinessPageTest"></class>
-            <class name="android.EntertainmentPageTest"></class>
-            <class name="android.FashionPageTest"></class>
-            <class name="android.LatestNewsPageTest"></class>
-            <class name="android.LivingPageTest"></class>
-            <class name="android.MediaPageTest"></class>
-            <class name="android.MetroPageTest"></class>
-            <class name="android.NewsPageTest"></class>
-            <class name="android.NotificationsPageTest"></class>
-            <class name="android.OpinionPageTest"></class>
-            <class name="android.PageSixPageTest"></class>
-            <class name="android.PhotosPageTest"></class>
-            <class name="android.RealEstatePageTest"></class>
-            <class name="android.SearchPageTest"></class>
-            <class name="android.SettingsPageTest"></class>
-            <class name="android.SportsPageTest"></class>
-            <class name="android.TechPageTest"></class>
-            <class name="android.VideosPageTest"></class>
+            <class name="Android.MenuPageTest"/>
+            <class name="Business.BusinessPageTest"/>
+            <class name="Entertainment.EntertainmentPageTest"/>
+            <class name="Fashion.FashionPageTest"/>
+            <class name="LatestNews.LatestNewsPageTest"/>
+            <class name="LivingPage.LivingPageTest"/>
+            <class name="MediaPage.MediaPageTest"/>
+            <class name="MetroPage.MetroPageTest"/>
+            <class name="NewsPage.NewsPageTest"/>
+            <class name="Notification.NotificationsPageTest"/>
+            <class name="opinionPage.Opinion"/>
+            <class name="PageSix.PageSixPageTest"/>
+            <class name="PhotoPage.PhotosPageTest"/>
+            <class name="RealEstatePage.RealEstatePageTest"/>
+            <class name="SearchPage.SearchPageTest"/>
+            <class name="settingsPage.Settings"/>
+            <class name="Tech.TestTechPage"/>
+            <class name="TopNews.TopNewsTest"/>
+            <class name="Videos.TestVideos"/>
+            <class name="Tech.TestTechPage"/>
         </classes>
     </test>
 </suite>

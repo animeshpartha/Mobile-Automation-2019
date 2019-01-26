@@ -21,5 +21,50 @@ public class Tech extends Base {
         Assert.assertEquals(Actual, Expected);
         System.out.println(Actual);
     }
+    public void getTech1(){
+        menu.click();
+        tech.click();
+        scrollAndClickByName("First-of-its-kind NYPD VR gaming system targets teens");
+        String actual = ad.findElement(By.id("br.com.golmobile.nypost:id/title_text")).getText();
+        String expected = "First-of-its-kind NYPD VR gaming system targets teens";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
+    }
+    public void getTech2(){
+        menu.click();
+        tech.click();
+        scrollAndClickByName("EBay shares surge 12 percent after activist investor calls for breakup");
+        String actual = ad.findElement(By.id("br.com.golmobile.nypost:id/title_text")).getText();
+        String expected = "EBay shares surge 12 percent after activist investor calls for breakup";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
+    }
+    public void getTech3(){
+        menu.click();
+        tech.click();
+        scrollAndClickByName("Bizarre deep-sea fish found living with ‘virtually no oxygen’");
+        String actual = ad.findElement(By.id("br.com.golmobile.nypost:id/title_text")).getText();
+        String expected = "Bizarre deep-sea fish found living with ‘virtually no oxygen’";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
+    }
+    public void getTech4(){
+        menu.click();
+        tech.click();
+        scrollAndClickByName("The mythical ‘Planet Nine’ theory has sadly been re-debunked");
+        String actual = ad.findElement(By.id("br.com.golmobile.nypost:id/title_text")).getText();
+        String expected = "The mythical ‘Planet Nine’ theory has sadly been re-debunked";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
+    }
+    public void getTech5(){
+        menu.click();
+        tech.click();
+        scrollAndClickByName("Chinese scientist behind gene-edited babies may face charges");
+        String actual = ad.findElement(By.id("br.com.golmobile.nypost:id/title_text")).getText();
+        String expected = "Chinese scientist behind gene-edited babies may face charges";
+        Assert.assertEquals(actual, expected);
+        System.out.println(actual);
+    }
 
 }
