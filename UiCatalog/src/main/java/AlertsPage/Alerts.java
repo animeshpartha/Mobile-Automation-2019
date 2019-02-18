@@ -31,6 +31,23 @@ public class Alerts extends Base {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    public void showActionSheetSimple(){
 //        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[1]");
 //    }
